@@ -22,7 +22,29 @@ A useful conversational agent must carry information, decisions, and actions acr
 
 Evaluation methods cover data generation and annotation, reference-based metrics, annotation-free evaluation, and LLM-based judges. See the [taxonomy guide](docs/taxonomy.md) for the paper's section structure.
 
+## The framework at a glance
+
+![Taxonomy of evaluation approaches for multi-turn conversational agents](assets/figures/fig-03-evaluation-taxonomy.png)
+
+The taxonomy links agent capabilities to evaluation data and metrics. Read the [core ideas and findings](docs/key-insights.md) for a guided explanation of tool use, memory, planning, evaluation methods, and future directions.
+
+## Agent example
+
+![An example of a multi-turn conversational agent](assets/figures/fig-01-agent-example.png)
+
+## Evaluation roadmap
+
+![Roadmap of multi-turn conversational evaluation](assets/figures/fig-10-roadmap.png)
+
+Figures are reproduced from the paper under [CC BY 4.0](LICENSE). See [all 10 figures and their original captions](docs/figures.md).
+
 ## Explore the resources
+
+- [Core ideas and findings](docs/key-insights.md): the paper's main contributions, evaluation dimensions, and open challenges.
+- [Figure gallery](docs/figures.md): all 10 figures, including memory, planning, data, and metrics taxonomies.
+- [Evaluation methods](docs/evaluation-methods.md): Table 1 and point-wise/pair-wise evaluation.
+- [Full paper PDF](paper/2503.22458v2.pdf): a local copy of arXiv v2.
+
 
 - [Benchmark tables](docs/benchmarks.md): the studies, evaluation targets, and metrics listed in Section 3.3.
 - [Complete reference index](docs/references.md): all 267 bibliography entries extracted from the arXiv v2 HTML, with available external links.
