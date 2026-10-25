@@ -1,5 +1,6 @@
 # Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey
 
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3793671-blue)](https://doi.org/10.1145/3793671)
 [![arXiv](https://img.shields.io/badge/arXiv-2503.22458-b31b1b.svg)](https://arxiv.org/abs/2503.22458)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -7,7 +8,7 @@
 
 Shengyue Guan, Jindong Wang, Jiang Bian, Bin Zhu, Jian-guang Lou, Haoyi Xiong
 
-[Paper](https://arxiv.org/abs/2503.22458) · [PDF](https://arxiv.org/pdf/2503.22458) · [中文说明](README.zh-CN.md) · [Taxonomy](docs/taxonomy.md) · [Benchmarks](docs/benchmarks.md) · [References](docs/references.md)
+[ACM paper](https://doi.org/10.1145/3793671) · [arXiv](https://arxiv.org/abs/2503.22458) · [PDF](https://arxiv.org/pdf/2503.22458) · [中文说明](README.zh-CN.md) · [Taxonomy](docs/taxonomy.md) · [Benchmarks](docs/benchmarks.md) · [References](docs/references.md)
 
 ## Overview
 
@@ -52,19 +53,28 @@ Figures are reproduced from the paper under [CC BY 4.0](LICENSE). See [all 10 fi
 
 ## Version
 
+The published journal article is available at [ACM, DOI: 10.1145/3793671](https://doi.org/10.1145/3793671).
+
 The repository's initial resource snapshot follows **arXiv v2, January 5, 2026**. The benchmark tables and reference index preserve that snapshot; additions should identify their source and distinguish later work.
 
 ## Citation
 
+Published in **ACM Transactions on Intelligent Systems and Technology (TIST), 17(4), 2026**. Please cite the published journal article below. [ACM / DOI](https://doi.org/10.1145/3793671) · [Download BibTeX](citation.bib)
+
+
 ```bibtex
-@misc{guan2026evaluatingllmbasedagentsmultiturn,
-  title={Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey},
-  author={Shengyue Guan and Jindong Wang and Jiang Bian and Bin Zhu and Jian-guang Lou and Haoyi Xiong},
-  year={2026},
-  eprint={2503.22458},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2503.22458}
+@article{guan2026evaluating,
+  title = {Evaluating {LLM}-based Agents for Multi-turn Conversations: A Survey},
+  author = {Guan, Shengyue and Wang, Jindong and Bian, Jiang and Zhu, Bin and Lou, Jian-Guang and Xiong, Haoyi},
+  journal = {ACM Transactions on Intelligent Systems and Technology},
+  volume = {17},
+  number = {4},
+  pages = {1--40},
+  year = {2026},
+  month = apr,
+  publisher = {Association for Computing Machinery},
+  doi = {10.1145/3793671},
+  url = {https://doi.org/10.1145/3793671}
 }
 ```
 

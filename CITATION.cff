@@ -1,20 +1,45 @@
 cff-version: 1.2.0
-message: "If you use this survey, please cite the paper below."
-type: article
-title: "Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey"
+message: "Please cite the published ACM TIST journal article in preferred-citation."
+title: "Companion resources for Evaluating LLM-based Agents for Multi-turn Conversations: A Survey"
 authors:
-  - family-names: Guan
-    given-names: Shengyue
-  - family-names: Wang
-    given-names: Jindong
-  - family-names: Bian
-    given-names: Jiang
-  - family-names: Zhu
-    given-names: Bin
-  - family-names: Lou
-    given-names: Jian-guang
-  - family-names: Xiong
-    given-names: Haoyi
-url: "https://arxiv.org/abs/2503.22458"
-doi: "10.48550/arXiv.2503.22458"
-year: 2026
+  - family-names: "Guan"
+    given-names: "Shengyue"
+  - family-names: "Wang"
+    given-names: "Jindong"
+  - family-names: "Bian"
+    given-names: "Jiang"
+  - family-names: "Zhu"
+    given-names: "Bin"
+  - family-names: "Lou"
+    given-names: "Jian-Guang"
+  - family-names: "Xiong"
+    given-names: "Haoyi"
+url: "https://github.com/Damon-GSY/multi-turn-agent-evaluation-survey"
+preferred-citation:
+  type: article
+  title: "Evaluating LLM-based Agents for Multi-turn Conversations: A Survey"
+  authors:
+    - family-names: "Guan"
+      given-names: "Shengyue"
+    - family-names: "Wang"
+      given-names: "Jindong"
+    - family-names: "Bian"
+      given-names: "Jiang"
+    - family-names: "Zhu"
+      given-names: "Bin"
+    - family-names: "Lou"
+      given-names: "Jian-Guang"
+    - family-names: "Xiong"
+      given-names: "Haoyi"
+  journal: "ACM Transactions on Intelligent Systems and Technology"
+  volume: "17"
+  issue: "4"
+  start: "1"
+  end: "40"
+  year: 2026
+  month: 4
+  date-published: "2026-04-28"
+  publisher:
+    name: "Association for Computing Machinery"
+  doi: "10.1145/3793671"
+  url: "https://doi.org/10.1145/3793671"

@@ -1,8 +1,10 @@
 # 大语言模型多轮对话智能体评测综述
 
-[English](README.md) · [论文](https://arxiv.org/abs/2503.22458) · [PDF](https://arxiv.org/pdf/2503.22458)
+[English](README.md) · [ACM 正式版](https://doi.org/10.1145/3793671) · [arXiv](https://arxiv.org/abs/2503.22458) · [PDF](https://arxiv.org/pdf/2503.22458)
 
 本仓库是 **Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey** 的配套资料仓库。
+
+论文已发表于 **ACM Transactions on Intelligent Systems and Technology（TIST），2026 年第 17 卷第 4 期**，DOI：[10.1145/3793671](https://doi.org/10.1145/3793671)。引用请使用 [正式版 BibTeX](citation.bib)。
 
 作者：Shengyue Guan、Jindong Wang、Jiang Bian、Bin Zhu、Jian-guang Lou、Haoyi Xiong。
 
