@@ -47,7 +47,7 @@ Figures are reproduced from the paper under [CC BY 4.0](LICENSE). See [all 10 fi
 
 
 - [Benchmark tables](docs/benchmarks.md): the studies, evaluation targets, and metrics listed in Section 3.3.
-- [Complete reference index](docs/references.md): all 267 bibliography entries extracted from the arXiv v2 HTML, with available external links.
+- [Complete reference index](docs/references.md): all 267 bibliography entries extracted from the arXiv v2 HTML, with linked titles and direct paper URLs (publisher/author records for the two historical reprints or legacy sources).
 - [Contributing](CONTRIBUTING.md): suggest corrections and relevant resources through issues or pull requests.
 
 ## Version

@@ -53,7 +53,7 @@
 
 - [分类导读](docs/taxonomy.md)：对应论文第二、三章的结构。
 - [基准与资源表](docs/benchmarks.md)：整理论文第三章的研究、评测目标与指标。
-- [完整参考文献](docs/references.md)：从 arXiv v2 HTML 提取的 267 条文献及可用外部链接。
+- [完整参考文献](docs/references.md)：从 arXiv v2 HTML 提取的 267 条文献均附来源地址，点击标题可直达论文；两条历史文献使用对应图书出版页或作者目录，并注明情况。
 - [参与贡献](CONTRIBUTING.md)：通过 Issue 或 Pull Request 提交勘误和资源建议。
 
 初始资料版本对应 **2026 年 1 月 5 日发布的 arXiv v2**。引用格式见 [英文 README](README.md#citation)。文档及论文改编内容采用 [CC BY 4.0](LICENSE)；所链接资源遵循各自许可。
