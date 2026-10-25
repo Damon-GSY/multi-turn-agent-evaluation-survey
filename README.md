@@ -1,66 +1,86 @@
-# Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey
+<p align="right"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 
-[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3793671-blue)](https://doi.org/10.1145/3793671)
-[![arXiv](https://img.shields.io/badge/arXiv-2503.22458-b31b1b.svg)](https://arxiv.org/abs/2503.22458)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+# Evaluating LLM-based Agents for Multi-Turn Conversations
 
-**The companion resource repository for our survey on evaluating LLM-based multi-turn conversational agents.**
+### A Survey · ACM TIST 2026
 
-Shengyue Guan, Jindong Wang, Jiang Bian, Bin Zhu, Jian-guang Lou, Haoyi Xiong
+**A map of what to evaluate—and how to evaluate it—when agents converse, remember, plan, and use tools across turns.**
 
-[ACM paper](https://doi.org/10.1145/3793671) · [arXiv](https://arxiv.org/abs/2503.22458) · [PDF](https://arxiv.org/pdf/2503.22458) · [中文说明](README.zh-CN.md) · [Taxonomy](docs/taxonomy.md) · [Benchmarks](docs/benchmarks.md) · [References](docs/references.md)
+Shengyue Guan · Jindong Wang · Jiang Bian · Bin Zhu · Jian-Guang Lou · Haoyi Xiong
 
-## Overview
+[![ACM TIST](https://img.shields.io/badge/ACM_TIST-17%284%29_%C2%B7_2026-315C84?style=flat-square)](https://doi.org/10.1145/3793671)
+[![arXiv](https://img.shields.io/badge/arXiv-2503.22458-B31B1B?style=flat-square)](https://arxiv.org/abs/2503.22458)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-65727E?style=flat-square)](LICENSE)
 
-A useful conversational agent must carry information, decisions, and actions across turns. This survey organizes evaluation around two connected questions: **what to evaluate** and **how to evaluate**.
+[**Read the paper ↗**](https://doi.org/10.1145/3793671) · [Core ideas](docs/key-insights.md) · [Benchmarks](docs/benchmarks.md) · [References](docs/references.md) · [Cite](#citation)
 
-| What to evaluate | Focus |
+<p align="center">
+  <img src="assets/readme/evaluation-map.svg" width="100%" alt="Multi-turn agent evaluation: follow the conversation across turns and assess experience, tool use, memory, and planning through data, metrics, and benchmarks.">
+</p>
+
+## Start here
+
+This is the companion resource repository for **Evaluating LLM-based Agents for Multi-turn Conversations: A Survey**, published in *ACM Transactions on Intelligent Systems and Technology*, 17(4), 2026.
+
+- **Understand the framework:** read the [core ideas and findings](docs/key-insights.md).
+- **Find an evaluation resource:** browse the [benchmark tables](docs/benchmarks.md) and [method comparison](docs/evaluation-methods.md).
+- **Explore the literature:** open the [267-entry reference index](docs/references.md), with linked paper titles.
+- **Read the original material:** view [all 10 figures](docs/figures.md) or the [arXiv v2 PDF](paper/2503.22458v2.pdf).
+
+## What to evaluate
+
+A successful conversation depends on more than its last answer. The survey connects dialogue-level outcomes to three agent components: tools, memory, and planning.
+
+| Evaluation target | Central question |
 | --- | --- |
-| End-to-end experience | Task completion, interaction patterns, user experience, and safety |
-| Action and tool use | API interaction, multi-step tool selection, and reliability |
-| Memory | Turn, conversation, and permanent memory; memory representations |
-| Planning | Task modeling, decomposition, adaptation, control, and reflection |
+| **End-to-end experience** | Does the agent complete tasks while sustaining coherent, useful, and safe interaction? |
+| **Action and tool use** | Does it select, chain, and interpret tools correctly across turns? |
+| **Memory** | Does it retain and use information within turns, across a conversation, and between sessions? |
+| **Planning** | Can it model goals, decompose tasks, adapt plans, and reflect on decisions? |
 
-Evaluation methods cover data generation and annotation, reference-based metrics, annotation-free evaluation, and LLM-based judges. See the [taxonomy guide](docs/taxonomy.md) for the paper's section structure.
+<details>
+<summary><strong>View the full taxonomy from the paper · Figure 3</strong></summary>
 
-## The framework at a glance
+![Original taxonomy of evaluation goals and methodologies](assets/figures/fig-03-evaluation-taxonomy.png)
 
-![Taxonomy of evaluation approaches for multi-turn conversational agents](assets/figures/fig-03-evaluation-taxonomy.png)
+[Open full-size figure](assets/figures/fig-03-evaluation-taxonomy.png) · [Section-by-section taxonomy](docs/taxonomy.md)
 
-The taxonomy links agent capabilities to evaluation data and metrics. Read the [core ideas and findings](docs/key-insights.md) for a guided explanation of tool use, memory, planning, evaluation methods, and future directions.
+</details>
 
-## Agent example
+## How to evaluate
 
-![An example of a multi-turn conversational agent](assets/figures/fig-01-agent-example.png)
+The second taxonomy connects **evaluation data** to **evaluation metrics**:
 
-## Evaluation roadmap
+1. **Build the data.** Generate and annotate responses, tool calls, rewritten queries, retrieved information, and factual claims.
+2. **Choose the method.** Use annotated references or exact targets, point-wise scoring, pair-wise/list-wise comparisons, and LLM or agent judges.
+3. **Inspect the process.** Consider intermediate actions, memory use, and plan changes alongside final outcomes.
 
-![Roadmap of multi-turn conversational evaluation](assets/figures/fig-10-roadmap.png)
+[Compare the methods →](docs/evaluation-methods.md) · [Explore benchmarks →](docs/benchmarks.md)
 
-Figures are reproduced from the paper under [CC BY 4.0](LICENSE). See [all 10 figures and their original captions](docs/figures.md).
+## Inside a multi-turn agent
 
-## Explore the resources
+![Paper Figure 1: a conversation coordinated through planning, tools, and memory](assets/figures/fig-01-agent-example.png)
 
-- [Core ideas and findings](docs/key-insights.md): the paper's main contributions, evaluation dimensions, and open challenges.
-- [Figure gallery](docs/figures.md): all 10 figures, including memory, planning, data, and metrics taxonomies.
-- [Evaluation methods](docs/evaluation-methods.md): Table 1 and point-wise/pair-wise evaluation.
-- [Full paper PDF](paper/2503.22458v2.pdf): a local copy of arXiv v2.
+The example illustrates how planning, tool execution, and memory support a conversation as the user's request develops. [Original caption and source](docs/figures.md#figure-1-agent-example).
 
+## Research directions
 
-- [Benchmark tables](docs/benchmarks.md): the studies, evaluation targets, and metrics listed in Section 3.3.
-- [Complete reference index](docs/references.md): all 267 bibliography entries extracted from the arXiv v2 HTML, with linked titles and direct paper URLs (publisher/author records for the two historical reprints or legacy sources).
-- [Contributing](CONTRIBUTING.md): suggest corrections and relevant resources through issues or pull requests.
+The survey highlights adaptive evaluation across turns, long-term memory benchmarks, test-time self-assessment, error correction, cumulative tool use, scalable evaluation, privacy, and ethical accountability.
 
-## Version
+<details>
+<summary><strong>View the evolution of conversation systems and evaluation · Figure 10</strong></summary>
 
-The published journal article is available at [ACM, DOI: 10.1145/3793671](https://doi.org/10.1145/3793671).
+![Roadmap of conversational systems and their evaluation methods](assets/figures/fig-10-roadmap.png)
 
-The repository's initial resource snapshot follows **arXiv v2, January 5, 2026**. The benchmark tables and reference index preserve that snapshot; additions should identify their source and distinguish later work.
+[Full roadmap and caption](docs/figures.md#figure-10-roadmap)
+
+</details>
+
+[Read the challenges and future directions →](docs/key-insights.md#open-challenges-and-future-directions)
 
 ## Citation
 
-Published in **ACM Transactions on Intelligent Systems and Technology (TIST), 17(4), 2026**. Please cite the published journal article below. [ACM / DOI](https://doi.org/10.1145/3793671) · [Download BibTeX](citation.bib)
-
+Please cite the published ACM TIST article. [DOI](https://doi.org/10.1145/3793671) · [BibTeX file](citation.bib)
 
 ```bibtex
 @article{guan2026evaluating,
@@ -78,6 +98,10 @@ Published in **ACM Transactions on Intelligent Systems and Technology (TIST), 17
 }
 ```
 
-## License
+## Version, contributions, and license
 
-Documentation and material adapted from the paper are available under [CC BY 4.0](LICENSE). Linked papers, datasets, and software retain their respective licenses.
+The resource collection follows **arXiv v2 (January 5, 2026)**; the citation points to the published ACM article. The PDF and extracted figures retain the arXiv v2 content. The [reference index notes](docs/references.md#link-notes) explain the two historical sources linked through a book page or author bibliography.
+
+Suggestions and corrections are welcome through issues and pull requests. See [Contributing](CONTRIBUTING.md).
+
+Documentation and adapted arXiv material use [CC BY 4.0](LICENSE). The opening map is a simplified repository illustration of the survey taxonomy; numbered figures are reproduced from the paper. Linked resources retain their own licenses.

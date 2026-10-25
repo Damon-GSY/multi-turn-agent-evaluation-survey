@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Evaluating multi-turn conversational agents</title>
+  <desc id="desc">A conversation connects multiple turns. Evaluation considers end-to-end experience, tool use, memory and planning, using data and metrics. A simplified map adapted from the survey taxonomy.</desc>
+  <rect width="1200" height="440" fill="#F7F8FA" rx="12"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="56" y="48" fill="#315C84" font-size="18" letter-spacing="2">MULTI-TURN AGENT EVALUATION</text>
+    <text x="56" y="105" fill="#14212B" font-family="Georgia, serif" font-size="42">Evaluate the conversation.</text>
+    <text x="56" y="147" fill="#65727E" font-size="23">Trace the capabilities that make it work.</text>
+    <g id="conversation-turns" fill="#FFFFFF" stroke="#315C84" stroke-width="2">
+      <path d="M144 218H1056" fill="none" stroke="#B8C7D3"/>
+      <rect x="56" y="190" width="190" height="56" rx="7"/>
+      <rect x="355" y="190" width="190" height="56" rx="7"/>
+      <rect x="654" y="190" width="190" height="56" rx="7"/>
+      <rect x="953" y="190" width="190" height="56" rx="7"/>
+    </g>
+    <g fill="#315C84" font-size="23" text-anchor="middle">
+      <text x="151" y="226">Turn 1</text><text x="450" y="226">Turn 2</text>
+      <text x="749" y="226">Turn 3</text><text x="1048" y="226">Turn n</text>
+    </g>
+    <path d="M56 276H1144" stroke="#D7DEE4"/>
+    <g id="evaluation-targets" fill="#14212B" font-size="24" font-weight="600">
+      <text x="56" y="321">Experience</text><text x="355" y="321">Tool use</text>
+      <text x="654" y="321">Memory</text><text x="953" y="321">Planning</text>
+    </g>
+    <g fill="#65727E" font-size="20">
+      <text x="56" y="353">Task success &amp; interaction</text><text x="355" y="353">Actions &amp; reliability</text>
+      <text x="654" y="353">Context across turns</text><text x="953" y="353">Adaptation &amp; reflection</text>
+    </g>
+    <text x="56" y="408" fill="#397873" font-size="20">WHAT TO EVALUATE</text>
+    <path d="M293 401H342m-8-6 8 6-8 6" fill="none" stroke="#397873" stroke-width="2"/>
+    <text x="366" y="408" fill="#397873" font-size="20">HOW TO EVALUATE: DATA + METRICS + BENCHMARKS</text>
+  </g>
+</svg>
