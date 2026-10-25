@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this survey, please cite the paper below."
+type: article
+title: "Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey"
+authors:
+  - family-names: Guan
+    given-names: Shengyue
+  - family-names: Wang
+    given-names: Jindong
+  - family-names: Bian
+    given-names: Jiang
+  - family-names: Zhu
+    given-names: Bin
+  - family-names: Lou
+    given-names: Jian-guang
+  - family-names: Xiong
+    given-names: Haoyi
+url: "https://arxiv.org/abs/2503.22458"
+doi: "10.48550/arXiv.2503.22458"
+year: 2026
