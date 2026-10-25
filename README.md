@@ -38,14 +38,24 @@ A successful conversation depends on more than its last answer. The survey conne
 | **Memory** | Does it retain and use information within turns, across a conversation, and between sessions? |
 | **Planning** | Can it model goals, decompose tasks, adapt plans, and reflect on decisions? |
 
-<details>
-<summary><strong>View the full taxonomy from the paper · Figure 3</strong></summary>
+### Full evaluation taxonomy · Figure 3
 
 ![Original taxonomy of evaluation goals and methodologies](assets/figures/fig-03-evaluation-taxonomy.png)
 
 [Open full-size figure](assets/figures/fig-03-evaluation-taxonomy.png) · [Section-by-section taxonomy](docs/taxonomy.md)
 
-</details>
+
+### Memory across turns · Figure 4
+
+![Paper Figure 4: memory evaluation taxonomy covering memory spans and representations](assets/figures/fig-04-memory-taxonomy.png)
+
+Memory evaluation considers both **how long information persists** and **how it is represented and retrieved**. [Full figure and caption](docs/figures.md#figure-4-memory-taxonomy).
+
+### Planning and adaptation · Figure 6
+
+![Paper Figure 6: planner evaluation taxonomy covering task modeling, decomposition, adaptation, control, and reflection](assets/figures/fig-06-planner-taxonomy.png)
+
+The planning taxonomy follows task modeling, decomposition, adaptation and control, and reflection. [Full figure and caption](docs/figures.md#figure-6-planner-taxonomy).
 
 ## How to evaluate
 
@@ -57,6 +67,12 @@ The second taxonomy connects **evaluation data** to **evaluation metrics**:
 
 [Compare the methods →](docs/evaluation-methods.md) · [Explore benchmarks →](docs/benchmarks.md)
 
+### Point-wise and pair-wise evaluation · Figure 9
+
+![Paper Figure 9: examples of scoring a response independently and comparing two responses](assets/figures/fig-09-pointwise-pairwise.png)
+
+Point-wise evaluation scores an individual response; pair-wise evaluation compares two candidates. [Original example and caption](docs/figures.md#figure-9-pointwise-pairwise).
+
 ## Inside a multi-turn agent
 
 ![Paper Figure 1: a conversation coordinated through planning, tools, and memory](assets/figures/fig-01-agent-example.png)
@@ -67,14 +83,12 @@ The example illustrates how planning, tool execution, and memory support a conve
 
 The survey highlights adaptive evaluation across turns, long-term memory benchmarks, test-time self-assessment, error correction, cumulative tool use, scalable evaluation, privacy, and ethical accountability.
 
-<details>
-<summary><strong>View the evolution of conversation systems and evaluation · Figure 10</strong></summary>
+### Evolution of conversation systems and evaluation · Figure 10
 
 ![Roadmap of conversational systems and their evaluation methods](assets/figures/fig-10-roadmap.png)
 
 [Full roadmap and caption](docs/figures.md#figure-10-roadmap)
 
-</details>
 
 [Read the challenges and future directions →](docs/key-insights.md#open-challenges-and-future-directions)
 

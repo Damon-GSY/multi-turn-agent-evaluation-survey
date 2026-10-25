@@ -38,14 +38,24 @@ Shengyue Guan · Jindong Wang · Jiang Bian · Bin Zhu · Jian-Guang Lou · Haoy
 | **记忆** | 能否在单轮、会话和跨会话场景中保留并使用相关信息？ |
 | **规划** | 能否建模目标、分解任务、调整计划并反思决策？ |
 
-<details>
-<summary><strong>展开论文完整分类体系 · 图 3</strong></summary>
+### 论文完整分类体系 · 图 3
 
 ![论文原图：评测目标与方法的完整分类体系](assets/figures/fig-03-evaluation-taxonomy.png)
 
 [查看大图](assets/figures/fig-03-evaluation-taxonomy.png) · [按论文章节阅读](docs/taxonomy.md)
 
-</details>
+
+### 跨轮次的记忆评测 · 图 4
+
+![论文图 4：按记忆跨度与表示形式组织的记忆评测分类](assets/figures/fig-04-memory-taxonomy.png)
+
+记忆评测同时关注**信息保留多久**，以及**如何表示与检索信息**。[完整原图与图注](docs/figures.md#figure-4-memory-taxonomy)。
+
+### 规划与动态适应 · 图 6
+
+![论文图 6：任务建模、分解、适应与控制、反思的规划评测分类](assets/figures/fig-06-planner-taxonomy.png)
+
+规划评测覆盖任务建模、任务分解、适应与控制、反思四个方面。[完整原图与图注](docs/figures.md#figure-6-planner-taxonomy)。
 
 ## 怎么评
 
@@ -57,6 +67,12 @@ Shengyue Guan · Jindong Wang · Jiang Bian · Bin Zhu · Jian-Guang Lou · Haoy
 
 [比较评测方法 →](docs/evaluation-methods.md) · [浏览评测基准 →](docs/benchmarks.md)
 
+### 独立评分与成对比较 · 图 9
+
+![论文图 9：对单个回答独立评分与对两个回答成对比较的示例](assets/figures/fig-09-pointwise-pairwise.png)
+
+独立评分根据给定标准评价一个回答；成对比较直接判断两个候选回答的相对表现。[原始示例与图注](docs/figures.md#figure-9-pointwise-pairwise)。
+
 ## 多轮对话智能体如何协作
 
 ![论文图 1：规划、工具与记忆共同支撑多轮交互](assets/figures/fig-01-agent-example.png)
@@ -67,14 +83,12 @@ Shengyue Guan · Jindong Wang · Jiang Bian · Bin Zhu · Jian-Guang Lou · Haoy
 
 论文讨论了跨轮次自适应评测、长期记忆基准、实时自评、错误纠正、连续工具使用、规模化评测、隐私保护和伦理责任。
 
-<details>
-<summary><strong>展开对话系统与评测方法的演进路线 · 图 10</strong></summary>
+### 对话系统与评测方法的演进路线 · 图 10
 
 ![多轮对话系统与评测方法的演进路线](assets/figures/fig-10-roadmap.png)
 
 [查看完整路线图与图注](docs/figures.md#figure-10-roadmap)
 
-</details>
 
 [阅读开放问题与未来方向 →](docs/key-insights.md#open-challenges-and-future-directions)
 
